@@ -9,6 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
+    min-height: 100vh;
 }
 
 ul{
@@ -52,11 +53,19 @@ a{
     color: white;
 }
 
+.first-secition,
+.second-section,
+.third-section,
+.fourth-section{
+    display: flex;
+    padding: 96px;
+}
+
 .first-section{
     display: flex;
     justify-content: center;
     gap: 32px;
-    background-color: #1F2937;
+    background-color: #1F2837;
     padding: 96px;
 }
 
@@ -89,8 +98,6 @@ a{
 
 .second-section{
     background-color: white;
-    padding: 96px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -120,8 +127,6 @@ a{
 
 .third-section{
     background-color: #E5E7EB;
-    padding: 96px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
